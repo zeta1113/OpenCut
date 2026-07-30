@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
 	reactStrictMode: true,
 	// ponytail: classic snapshot deploy; skip typecheck (dual next-version skew, runtime uses apps/web next 16.1.3). Drop when root next pinned to 16.1.3.
 	typescript: { ignoreBuildErrors: true },
-	eslint: { ignoreDuringBuilds: true },
 	productionBrowserSourceMaps: true,
 	output: "standalone",
 	images: {
